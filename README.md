@@ -21,7 +21,7 @@ nodejs-and-docker   latest           9d23e64b868f   3 minutes ago   176MB
 
 ### Now we will test it locally
 ```bash
-$ docker run -p 3000:3000 nodejs-and-docker
+$ docker run -p 1337:1337 nodejs-and-docker
 ```
 
 Now mode to http://localhost:1337/status
